@@ -1,0 +1,29 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* || General Layout */
+
+
+
+/* || Utility Style */
+
+.horoscopes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.horoscope {
+  display: grid;
+  justify-self: center;
+}
+
+.name {
+  display: grid;
+  justify-self: center;
+  margin-bottom: 20px;
+}
