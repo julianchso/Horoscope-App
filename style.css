@@ -71,6 +71,7 @@ button {
   display: grid;
   justify-self: center;
   width: 50%;
+  transition: all .1s ease;
 }
 
 .name {
@@ -86,4 +87,8 @@ button {
 
 .break {
   flex-basis: 100%;
+}
+
+.chosen {
+  transform: scale(1.5);
 }
