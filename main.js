@@ -11,8 +11,8 @@ function horoscopeFinder() {
   let day = document.getElementById("date").value;
 
   if (month > 12 || month < 1 || day > 31 || day < 1) {
-    console.log("You must enter a valid birthdate")
-    return
+    console.log("You must enter a valid birthdate");
+    return;
   }
 
   if (month == 1) {
@@ -114,14 +114,12 @@ function horoscopeFinder() {
 
 function reset() {
   setTimeout(() => {
-    sign = document.querySelectorAll(".horoscope")
-    sign.forEach(e => {
-      e.classList.remove("chosen")
+    sign = document.querySelectorAll(".horoscope");
+    sign.forEach((e) => {
+      e.classList.remove("chosen");
     });
   }, 2500);
 }
-
-
 
 // Aries (March 21-April 19)
 // Taurus (April 20-May 20)
